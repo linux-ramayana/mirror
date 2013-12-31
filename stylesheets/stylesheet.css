@@ -50,7 +50,12 @@ table {
 body {
   font-size: 15px;
   line-height: 1.5; 
-  background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
+  background-color: #093E83;
+	background-image: linear-gradient(rgba(255,255,255,.2) 1px, transparent 1px),
+	linear-gradient(90deg, rgba(255,255,255,.2) 1px, transparent 1px),
+	linear-gradient(rgba(255,255,255,.1) 1px, transparent 1px),
+	linear-gradient(90deg, rgba(255,255,255,.1) 1px, transparent 1px);
+	background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-weight: 400;
   color: #666;
